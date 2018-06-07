@@ -1,9 +1,39 @@
 body{
-    background:black;
+    background: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  .clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .topNavBar {
 }
-a{
-    text-decoration: none；
+.topNavBar .logo {
+  font-family: "Hiragino Kaku Gothic Std";
+  font-size: 22px;
+  padding-top: 1px;
 }
-.clearfix::after{
-    content:'';
+.topNavBar .logo .rs{
+  color: #e6686a;
+  margin-right: 4px;
+}
+.topNavBar .logo .card{
+  color: #9A9DA2;
+}
+
+.topNavBar nav {
+  font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.topNavBar nav a{
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-weight: bold;
+}
+.topNavBar nav ul{
+    
 }

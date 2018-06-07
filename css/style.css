@@ -15,6 +15,7 @@ body{
   .topNavBar .logo {
     font-family: "Hiragino Kaku Gothic Std";
     font-size: 22px;
+    font-weight: bold;
     padding-top: 1px;
   }
   .topNavBar .logo .rs{

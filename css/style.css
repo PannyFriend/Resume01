@@ -146,4 +146,25 @@ body{
   .userCard dl dd{
     width:70%;
   }
-  
+  .userCard > footer.media{
+    background: #e6686a;
+    text-align: center;
+  }
+  .userCard >footer.media > a{
+    
+    width:40px;
+    line-height: 30px;
+    display: inline-block;
+    margin:16px;
+    padding: 5px 0;
+    border-radius:50%;
+  }
+  .userCard > footer.media > a:hover{
+    background: #cf5d5f;
+  }
+  .userCard svg{
+    width:30px;
+    height:30px;
+    fill:white;
+    vertical-align:top;
+  }

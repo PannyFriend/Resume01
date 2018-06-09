@@ -1,17 +1,22 @@
 body{
-    background: black;
+    background: #efefef;
+    margin:0;
   }
   a{
     text-decoration: none;
   }
+  * {
+    margin: 0;
+    padding: 0; 
+  }
+ 
   .clearfix::after{
     content: '';
     display: block;
     clear: both;
   }
   
-  .topNavBar {
-  }
+  
   .topNavBar .logo {
     font-family: "Hiragino Kaku Gothic Std";
     font-size: 22px;
@@ -52,3 +57,23 @@ body{
   .topNavBar nav ul>li>a:hover{
     border-bottom-color: #DC6465;
   }
+  
+  .topNavBar {
+   position: fixed;
+   width:100%;
+   padding: 20px 0 20px 0;
+   top:0;
+   left:0;
+  }
+  .banner{
+    height: 515px;
+    background-image: url(/img/rs-cover.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .banner .mask{
+    background-color: rgba(0, 0, 0, 0.8);
+    height:515px;
+  
+  }
+  

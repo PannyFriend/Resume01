@@ -74,8 +74,16 @@ ul,ol{
     background-image: url(../img/rs-cover.jpg);
     background-position: center center;
     background-size: cover;
-    border: red solid 1px;
+    
   }
+  /*背景图片显示不出来的原因：
+  主要是图片路径的问题。
+1.图片和网页放在同一目录下，background-image:url("图片.jpg")
+2.图片放在一个image目录下。并且image目录和网页在同一目录下：
+background-image:url(“image/图片.jpg”)
+3.图片放在一个image目录下。并且image目录和网页不在同一目录下
+background-image:url(“../image/图片.jpg”)//两个点加一个左斜杠代表该程序的根目录
+  */
   .banner .mask{
     background-color: rgba(0, 0, 0, 0.8);
     height:515px;

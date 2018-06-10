@@ -9,7 +9,9 @@ a{
   margin: 0;
   padding: 0; 
 }
-
+h1,h2,h3,h4,h5,h6{
+  font-weight:normal;
+}
 ul,ol{
   list-style: none;
 }
@@ -180,3 +182,143 @@ background-image:url(“../image/图片.jpg”)//两个点加一个左斜杠代�
   body > main{
     margin-top: -340px;
   }
+  body > main .downloadResume-Wrapper{
+    text-align: center;
+  }
+  body > main .downloadResume{
+    border: #cbcdcf 1px solid;
+    font-size: 14px;
+    color:#3d4451;
+    padding: 20px 57px;
+    background: #efefef;
+    font-weight: bold;
+    display: inline-block;
+    margin:33px 0;
+    border-radius: 2px;
+    transition: box-shadow 0.2s;
+
+  }
+  body > main .downloadResume:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.2);
+  }
+  .selfIntroduction{
+    max-width: 940px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-family: kaiti, Times New Roman;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  section.skills,
+  section.portfolio{
+   
+    max-width: 940px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+  }
+  section.skills > h2,
+  section.portfolio > h2{
+    text-align: center;
+    color:#3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight:600;
+  }
+
+  section.skills > ol{
+    background: #ffffff;
+    margin-top:30px;
+    padding: 42px 50px 10px ;
+  }
+  
+  
+  section.skills > ol >li{
+   
+    float:left;
+    width:48%
+    
+  }
+  section.skills > ol >li:nth-child(even){
+    float: right;
+  }
+  section.skills h3{
+    font-size:14px;
+    line-height: 1.1;
+  }
+  section.skills .progressBar{
+    background: #fae1e1;
+    height:5px;
+    border-radius:2px;
+    margin:4px 0 40px;
+  }
+  section.skills .progressBar > .progress{
+    height:100%;
+    background: #e8676b;
+    width:70%;
+    border-radius:2px;
+  }
+section.portfolio{
+ 
+  text-align: center;
+  margin-bottom: 100px;
+}
+section.portfolio nav{
+  text-align: center;
+  margin-top:32px;
+  display: inline-block;
+  vertical-align：top;
+  margin-bottom:32px;
+  
+  
+}
+section.portfolio nav ol{
+  
+  display: inline-block;
+  vertical-align：top;
+  
+}
+section.portfolio nav ol>li{
+ 
+  float: left;
+  margin-left:40px;
+  cursor: pointer;
+}
+section.portfolio nav ol>li:first-child{
+  margin-left: 0px;
+}
+section.portfolio nav .bar{
+
+  height: 5px;
+  background: white;
+  border-radius:2px;
+  margin-top:5px;
+  
+}
+section.portfolio > nav .bar-inner{
+  height: 100%;
+  background: #E6686A;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+section.portfolio > nav .bar.state-1 .bar-inner{
+  margin-left: 0;
+  width: 50px;
+}
+section.portfolio > nav .bar.state-2 .bar-inner{
+  margin-left: 65px;
+  width: 50px;
+}
+section.portfolio > nav .bar.state-3 .bar-inner{
+  margin-left: 140px;
+  width: 96px;
+}
+section.portfolio .works{
+  position: relative;
+}
+section.portfolio .works > .big,
+section.portfolio .works > .small {
+  position: absolute;
+}

@@ -1,79 +1,80 @@
 body{
-    background: #efefef;
-    margin:0;
-  }
-  a{
-    text-decoration: none;
-  }
-  * {
-    margin: 0;
-    padding: 0; 
-  }
- 
-  ul,ol{
-    list-style: none;
-  }
-  
-  .clearfix::after{
-    content: '';
-    display: block;
-    clear: both;
-  }
-  
-  
-  .topNavBar .logo {
-    font-family: "Hiragino Kaku Gothic Std";
-    font-size: 22px;
-    font-weight: bold;
-    padding-top: 1px;
-  }
-  .topNavBar .logo .rs{
-    color: #e6686a;
-    margin-right: 4px;
-  }
-  .topNavBar .logo .card{
-    color: #9A9DA2;
-  }
-  
-  .topNavBar nav {
-    font-size: 13px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  .topNavBar nav a{
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .topNavBar nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .topNavBar nav ul>li{
-    float: left;
-    margin-left: 17px;
-    margin-right: 17px;
-  }
-  .topNavBar nav ul>li>a{
-    border-bottom: 3px solid transparent;
-  }
-  .topNavBar nav ul>li>a:hover{
-    border-bottom-color: #DC6465;
-  }
-  
-  .topNavBar {
-   position: fixed;
-   width:100%;
-   padding: 20px 0 20px 0;
-   top:0;
-   left:0;
-  }
-  .banner{
+  background: #efefef;
+  margin:0;
+}
+a{
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+ul,ol{
+  list-style: none;
+}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.topNavBar .logo {
+  font-family: "Hiragino Kaku Gothic Std";
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 1px;
+}
+.topNavBar .logo .rs{
+  color: #e6686a;
+  margin-right: 4px;
+}
+.topNavBar .logo .card{
+  color: #9A9DA2;
+}
+
+.topNavBar nav {
+  font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.topNavBar nav a{
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-weight: bold;
+}
+.topNavBar nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.topNavBar nav ul>li{
+  float: left;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.topNavBar nav ul>li>a{
+  border-bottom: 3px solid transparent;
+}
+.topNavBar nav ul>li>a:hover{
+  border-bottom-color: #DC6465;
+}
+
+.topNavBar {
+ position: fixed;
+ width:100%;
+ padding: 20px 0 20px 0;
+ top:0;
+ left:0;
+}
+  .banner {
     height: 515px;
-    background-image: url(/img/rs-cover.jpg);
+    background-image: url(../img/rs-cover.jpg);
     background-position: center center;
     background-size: cover;
+    border: red solid 1px;
   }
   .banner .mask{
     background-color: rgba(0, 0, 0, 0.8);
